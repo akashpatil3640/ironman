@@ -8,11 +8,11 @@ You are driving on highway, and see a tunnel having height 18 ft (H_T) and width
 Also calculate volume of container only if container passes tunnel.
 Check if volume of container is perfect square or not.
 
-Constraints:
-0  < N
-0  <  L_C <  50
-0  <  H_C <  30
-0  <  W_C <  30
+Constraints:<br>
+0  < N <br>
+0  <  L_C <  50 <br>
+0  <  H_C <  30 <br>
+0  <  W_C <  30<br>
 
 Input:
 The first line contains integer N (number of container to pass) 
@@ -25,17 +25,17 @@ Third line displays if volume is perfect square or not as TRUE/FALSE, only if co
 /*(one blank line)*/
 Repeat this output for N containers.
 
-Sample Input:
-2
-40 12 8
-40 18 12
+Sample Input:<br>
+2<br>
+40 12 8<br>
+40 18 12<br>
 
 Sample Output:
-PASS
-3840
-FALSE
-
-FAIL
+PASS<br>
+3840<br>
+FALSE<br>
+<br><br>
+FAIL<br>
 
 
 
@@ -43,7 +43,7 @@ FAIL
 
 
 Explanation:
-N = 2
+N = 2<br>
 
 For first container
 Height and Width satisfy with given condition, As container passes shown its volume and checked for perfect square or not.
@@ -52,7 +52,7 @@ For the next container
 Width of container is greater than width of tunnel, so container cannot pass the tunnel hence displayed FAIL as result.
 
 Run Code with this Input and Take Screenshots
-3
-32 16 8
-40 12 8
-30 11 11
+3<br>
+32 16 8<br>
+40 12 8<br>
+30 11 11<br>
